@@ -1984,7 +1984,7 @@ section,
   font-size: 16px;
   line-height: 1.7;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 
 .services .service-link {
