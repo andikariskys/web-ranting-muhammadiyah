@@ -972,6 +972,25 @@ section,
   }
 }
 
+.hero .hero-content .hero-image .floating-card-reversed {
+  position: absolute;
+  bottom: 60px;
+  right: -20px;
+  background: var(--surface-color);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 15px 40px color-mix(in srgb, var(--default-color), transparent 85%);
+  backdrop-filter: blur(10px);
+}
+
+@media (max-width: 768px) {
+  .hero .hero-content .hero-image .floating-card-reversed {
+    right: 20px;
+    bottom: 20px;
+    padding: 1.5rem;
+  }
+}
+
 .hero .hero-content .hero-image .floating-card .card-content {
   display: flex;
   gap: 2rem;
@@ -1442,7 +1461,7 @@ section,
 
 .skills .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
   gap: var(--skill-spacing);
   margin-bottom: 60px;
 }
